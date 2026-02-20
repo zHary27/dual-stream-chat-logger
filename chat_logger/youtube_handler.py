@@ -27,7 +27,7 @@ class YouTubeLogger:
                     await asyncio.sleep(0.1)
                 
             except Exception as e:
-                print(f"Error in YouTube logger: {e}")
+                print(f'Error in YouTube logger: {e}')
                 
             if not self.logging_event.is_set():
                 await asyncio.sleep(2)
